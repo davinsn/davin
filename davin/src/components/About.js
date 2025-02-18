@@ -4,10 +4,9 @@ import "../styles/About.css";
 const About = () => {
   return (
     <div className="about-container">
-      <h1 className="about-title">About Us</h1>
+      <h1 className="about-title">About Me</h1>
       <p className="about-text">
-        Welcome to our website! We are dedicated to providing the best services 
-        to our customers. Our team works hard to ensure quality and satisfaction.
+        I am a full-time student from Malaysia studying Computer Science at RMIT University.
       </p>
     </div>
   );

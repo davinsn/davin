@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
+import { Link, Element } from "react-scroll";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import "./App.css";
 
 function App() {
   return (
-    <Router>
     <div className="App">
-      <Navbar/>
-        
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-       
+      <Navbar />
+
+      <Element name="home" className="section">
+        <Home />
+      </Element>
+
+      <Element name="about" className="section">
+        <About />
+      </Element>
+
+      <Element name="projects" className="section">
+        <Projects />
+      </Element>
     </div>
-    </Router>
   );
 }
 

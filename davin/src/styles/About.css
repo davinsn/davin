@@ -2,6 +2,7 @@
     padding: 24px;
     max-width: 768px;
     margin: auto;
+    font-size: 30px;
   }
   
   .about-title {
@@ -12,7 +13,7 @@
   }
   
   .about-text {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: #555;
     line-height: 1.6;
   }
