@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "NTR", sans-serif;
+  background:antiquewhite;
 }
 
 .section {
@@ -15,3 +16,5 @@ html, body {
 .home { background: #f8b400; }
 .about { background: #34a0a4; }
 .projects { background: #9b5de5; }
+
+
